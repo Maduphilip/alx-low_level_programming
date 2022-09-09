@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - main block
  * Description: Get a random nimber and check its last digit, compare it with 5
@@ -23,4 +23,6 @@ int main(void)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
 
 	return (0)
+
+		;
 }
